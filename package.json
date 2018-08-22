@@ -1,0 +1,32 @@
+{
+  "name": "line-official-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "server": "node index.js"
+  },
+  "author": "Nize",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/winaibuttasart"
+  },
+  "keywords": [
+    "line",
+    "Line",
+    "line-bot",
+    "line chatbot",
+    "line bot",
+    "line nodejs",
+    "nodejs line bot",
+    "nodejs line-bot"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "@line/bot-sdk": "^6.2.1",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3"
+  }
+}
